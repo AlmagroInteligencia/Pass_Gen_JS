@@ -24,9 +24,6 @@
         passwordGenerated += characters[position];    
     } 
 
-    alert("Password generated: " + passwordGenerated);
-}
-
-function showResult() {
-    document.write("<h4>Pasword Generated: <br> $password_final</h4>");
+    document.getElementById("result").innerHTML = "<h4>Pasword Generated: <br>" + passwordGenerated +"</h4>";
+    //alert("Password generated: " + passwordGenerated);
 }
